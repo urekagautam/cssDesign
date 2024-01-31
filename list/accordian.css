@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  row-gap: 0.8rem;
+  padding: 1.4rem;
+  background-color: #e5e5e556;
+  color: rgb(62, 59, 59);
+  font-family: sans-serif;
+}
+
+.acContainer {
+  background-color: rgb(253, 253, 253);
+  padding: 1.6rem;
+  width: 100%;
+  box-shadow: 0.5px 1px 2px #918e8ed6;
+}
+
+.acIcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show {
+  padding-top: 20px;
+  font-size: 1rem;
+  text-align: justify;
+  display: none;
+}
+
+.acContainer.active .show {
+  display: block;
+}
+
+.acIcon > h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.buttons > button {
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem;
+  color: rgb(116, 116, 215);
+  padding: 1.6rem 0 0 0.8rem;
+  cursor: pointer;
+}
+
+.material-icons {
+  cursor: pointer;
+}
